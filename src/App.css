@@ -1,0 +1,147 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  box-shadow: 0px 2px 5px gray;
+}
+.title {
+  width: 30%;
+}
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  background: #14BDAC;
+}
+
+.board {
+  height: 330px;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 6px 6px 11px 6px rgba(40, 192, 40, 0.397);
+}
+
+
+.tile {
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  color: greenyellow;
+}
+
+#tile0 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  color: greenyellow;
+}
+
+#tile1 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  color: greenyellow;
+}
+#tile2 {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  color: greenyellow;
+}
+#tile3 {
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  color: greenyellow;
+}
+#tile4 {
+  border: 5px solid black;
+  color: greenyellow;
+}
+#tile5 {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  color: greenyellow;
+}
+#tile6 {
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  color: greenyellow;
+}
+#tile7 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  color: greenyellow;
+}
+#tile8 {
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+  color: greenyellow;
+}
+
+.game p {
+  font-size: 2em;
+  font-weight: bold;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #14BDAC;
+  position: fixed;
+}
+
+.screen {
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 600px;
+  box-shadow: 6px 6px 11px 6px rgba(40, 192, 40, 0.397);
+  
+}
+.form-group label {
+  display: inline;
+}
+
+.btnWrapper {
+  justify-content: space-around;
+}
+
+.btnPlay {
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: greenyellow !important;
+}
+
+input:hover {
+  background-color: greenyellow;
+}
